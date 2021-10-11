@@ -48,7 +48,4 @@ def add_label(filename='data/result.json'):
         json.dump(file_data, file, indent=4)
 
 
-        file.seek(0)
-        json.dump(file_data, file, indent=4)
-
 add_label()
