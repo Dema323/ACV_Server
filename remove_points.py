@@ -1,8 +1,8 @@
 import json
 
 def remove_points(filename='data/result.json'):
+    dict_data = {}
     correct_data = []
-
     with open(filename, 'r+') as file:
         file_data = json.load(file)
 
@@ -13,9 +13,11 @@ def remove_points(filename='data/result.json'):
             else:
                 correct_data.append(features)
 
-    with open('data/removed.json', 'a') as outfile:
-        json.dump(correct_data, outfile, indent=4,separators=(',', ': '))
+    dict_data['type'] = 'FeatureCollection'
+    dict_data['features'] = correct_data            
+    with open('data/removed.json', 'w') as outfile:
+        json.dump(dict_data, outfile, indent=4,separators=(',', ': '))
 
-
+    
 
 remove_points()

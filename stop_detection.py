@@ -33,8 +33,12 @@ traj_plot = my_traj.hvplot(title='Trajectory {}'.format(my_traj.id), line_width=
 traj_plot
 
 
-#stop_durations = detector.get_stop_time_ranges(min_duration=timedelta(seconds=60), max_diameter=100)
+
 stop_points = detector.get_stop_points(min_duration=timedelta(seconds=60), max_diameter=50)
+
+
+
+#stop_durations = detector.get_stop_time_ranges(min_duration=timedelta(seconds=60), max_diameter=100)
 # stop_segments =  detector.get_stop_segments(min_duration=timedelta(seconds=60), max_diameter=100)
 
 

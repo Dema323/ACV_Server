@@ -4,7 +4,7 @@ from datetime import datetime
 from datetime import date
 
 
-def calculate_paid_time(filename='data/result.json'):
+def calculate_paid_time(filename='data/removed.json'):
     start_points = []
     end_points = []
     with open(filename, 'r+') as file:

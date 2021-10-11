@@ -2,121 +2,82 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "type": 1,
+            "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-09-22 15:29:41",
-                "start_time": "2021-09-22T15:29:41",
-                "end_time": "2021-09-22T15:30:44",
+                "stop_id": "1_2021-10-05 17:39:18",
+                "start_time": "2021-10-05T17:39:18",
+                "end_time": "2021-10-05T17:40:19",
                 "traj_id": 1,
-                "duration_s": 63.00000000000001
+                "duration_s": 61.00000000000001,
+                "avgspeed": 2.908932869633039,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7263692,
-                    50.8475138
+                    4.701811,
+                    50.8833915
                 ]
             }
         },
         {
-            "type": 2,
+            "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-09-22 15:31:31",
-                "start_time": "2021-09-22T15:31:31",
-                "end_time": "2021-09-22T15:33:04",
+                "stop_id": "1_2021-10-05 17:41:46",
+                "start_time": "2021-10-05T17:41:46",
+                "end_time": "2021-10-05T17:42:53",
                 "traj_id": 1,
-                "duration_s": 93.0
+                "duration_s": 67.0,
+                "avgspeed": 1.835040613011058,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7289023,
-                    50.8473703
+                    4.701051,
+                    50.8857655
                 ]
             }
         },
         {
-            "type": 1,
+            "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-09-22 15:33:33",
-                "start_time": "2021-09-22T15:33:33",
-                "end_time": "2021-09-22T15:34:47",
+                "stop_id": "1_2021-10-05 17:44:34",
+                "start_time": "2021-10-05T17:44:34",
+                "end_time": "2021-10-05T17:45:40",
                 "traj_id": 1,
-                "duration_s": 74.0
+                "duration_s": 66.0,
+                "avgspeed": 2.3256465247474036,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7308885,
-                    50.8468727
+                    4.7002068,
+                    50.8867992
                 ]
             }
         },
         {
-            "type": 2,
+            "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-09-22 15:36:20",
-                "start_time": "2021-09-22T15:36:20",
-                "end_time": "2021-09-22T15:37:25",
+                "stop_id": "1_2021-10-05 17:47:04",
+                "start_time": "2021-10-05T17:47:04",
+                "end_time": "2021-10-05T17:48:16",
                 "traj_id": 1,
-                "duration_s": 65.0
+                "duration_s": 72.0,
+                "avgspeed": 2.0929834806884173,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7268026,
-                    50.8510615
-                ]
-            }
-        },
-        {
-            "type": 1,
-            "properties": {
-                "stop_id": "1_2021-09-22 15:38:57",
-                "start_time": "2021-09-22T15:38:57",
-                "end_time": "2021-09-22T15:40:07",
-                "traj_id": 1,
-                "duration_s": 70.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.7232697,
-                    50.849555
-                ]
-            }
-        },
-        {
-            "type": 2,
-            "properties": {
-                "stop_id": "1_2021-09-22 15:41:23",
-                "start_time": "2021-09-22T15:41:23",
-                "end_time": "2021-09-22T15:42:47",
-                "traj_id": 1,
-                "duration_s": 84.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.7258181,
-                    50.8457564
-                ]
-            }
-        },
-        {
-            "type": 1,
-            "properties": {
-                "stop_id": "1_2021-09-22 15:44:39",
-                "start_time": "2021-09-22T15:44:39",
-                "end_time": "2021-09-22T15:45:51",
-                "traj_id": 1,
-                "duration_s": 72.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.7284088,
-                    50.8462989
+                    4.7010539,
+                    50.883204
                 ]
             }
         }
