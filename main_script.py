@@ -1,5 +1,5 @@
 import convert_to_geojson
-import stop_detection_result
+import stop_detection
 import apply_calculations
 import remove_points
 import label_stop_points
