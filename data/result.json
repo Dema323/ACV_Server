@@ -4,80 +4,160 @@
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-05 17:39:18",
-                "start_time": "2021-10-05T17:39:18",
-                "end_time": "2021-10-05T17:40:19",
+                "stop_id": "1_2021-10-11 12:12:38",
+                "start_time": "2021-10-11T12:12:38",
+                "end_time": "2021-10-11T12:13:37",
                 "traj_id": 1,
-                "duration_s": 61.00000000000001,
-                "avgspeed": 2.908932869633039,
+                "duration_s": 59.00000000000001,
+                "avgspeed": 1.1578540985254222,
                 "backtracking": false,
                 "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.701811,
-                    50.8833915
+                    4.3851702,
+                    50.8662609
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-05 17:41:46",
-                "start_time": "2021-10-05T17:41:46",
-                "end_time": "2021-10-05T17:42:53",
+                "stop_id": "1_2021-10-11 12:23:40",
+                "start_time": "2021-10-11T12:23:40",
+                "end_time": "2021-10-11T12:24:42",
                 "traj_id": 1,
-                "duration_s": 67.0,
-                "avgspeed": 1.835040613011058,
-                "backtracking": false,
-                "backtracking_probability": 0.0
+                "duration_s": 62.00000000000001,
+                "avgspeed": 2.1666360906948445,
+                "backtracking": true,
+                "backtracking_probability": 0.875
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.701051,
-                    50.8857655
+                    4.385554,
+                    50.8518845
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-05 17:44:34",
-                "start_time": "2021-10-05T17:44:34",
-                "end_time": "2021-10-05T17:45:40",
+                "stop_id": "1_2021-10-11 12:25:01",
+                "start_time": "2021-10-11T12:25:01",
+                "end_time": "2021-10-11T12:25:56",
                 "traj_id": 1,
-                "duration_s": 66.0,
-                "avgspeed": 2.3256465247474036,
+                "duration_s": 55.0,
+                "avgspeed": 1.1865491192757842,
                 "backtracking": false,
                 "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7002068,
-                    50.8867992
+                    4.3862127,
+                    50.8521015
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-05 17:47:04",
-                "start_time": "2021-10-05T17:47:04",
-                "end_time": "2021-10-05T17:48:16",
+                "stop_id": "1_2021-10-11 12:25:58",
+                "start_time": "2021-10-11T12:25:58",
+                "end_time": "2021-10-11T12:27:35",
                 "traj_id": 1,
-                "duration_s": 72.0,
-                "avgspeed": 2.0929834806884173,
+                "duration_s": 97.0,
+                "avgspeed": 0.5156849235077411,
                 "backtracking": false,
                 "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7010539,
-                    50.883204
+                    4.3867085,
+                    50.8522617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:34:11",
+                "start_time": "2021-10-11T12:34:11",
+                "end_time": "2021-10-11T12:35:13",
+                "traj_id": 1,
+                "duration_s": 62.00000000000001,
+                "avgspeed": 3.988548835118612,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4076144,
+                    50.8393275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:37:43",
+                "start_time": "2021-10-11T12:37:43",
+                "end_time": "2021-10-11T12:44:03",
+                "traj_id": 1,
+                "duration_s": 380.0,
+                "avgspeed": 0.4800760543648288,
+                "backtracking": false,
+                "backtracking_probability": 0.25
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.416143,
+                    50.8421292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:46:29",
+                "start_time": "2021-10-11T12:46:29",
+                "end_time": "2021-10-11T12:48:11",
+                "traj_id": 1,
+                "duration_s": 102.0,
+                "avgspeed": 4.124918073415756,
+                "backtracking": false,
+                "backtracking_probability": "Backtracking not possible"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4171276,
+                    50.8463208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:57:06",
+                "start_time": "2021-10-11T12:57:06",
+                "end_time": "2021-10-11T12:59:48",
+                "traj_id": 1,
+                "duration_s": 162.0,
+                "avgspeed": 1.0835062342239619,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.395202,
+                    50.8335191
                 ]
             }
         }

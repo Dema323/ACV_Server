@@ -20,10 +20,10 @@ def d_bt(stop_points):
             diff_b = begin_stop_point - features['timestamp']//1000
             diff_e = end_stop_point - features['timestamp']//1000
             
-            if(0 < diff_b < 15):
+            if(0 < diff_b < 20):
                 points_before_stop.append(features)
             
-            if(-15 < diff_e < 0):
+            if(-20 < diff_e < 0):
                 points_after_stop.append(features)
                 
         points_after_stop.reverse()
@@ -39,7 +39,7 @@ def d_bt(stop_points):
         for i in range(min(lpbs, lpas)):
             diff = points_before_stop[i]['coords']['heading'] - points_after_stop[i]['coords']['heading']
 
-            heading_diff = 170 < abs(diff) < 190
+            heading_diff = 165 < abs(diff) < 195
             if heading_diff == True:
                 true_head = true_head + 1
             else:
@@ -49,14 +49,17 @@ def d_bt(stop_points):
         if min(lpbs, lpas) > 0:
             backtracking_probability = true_head/min(lpbs, lpas)
         else:
-            backtracking_probability = 0
+            backtracking_probability = 0.00000001
             
         backtracking_bool = False
 
-        if(backtracking_probability > 0.5):
+        if backtracking_probability >= 0.4:
             backtracking_bool = True
         
-        return backtracking_bool, backtracking_probability
+        if backtracking_probability == 0.00000001:
+            return backtracking_bool, 'Backtracking not possible'
+        else:
+            return backtracking_bool, backtracking_probability
         
         # return value is a tuple
 

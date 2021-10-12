@@ -34,9 +34,9 @@ traj_plot
 
 
 
-stop_points = detector.get_stop_points(min_duration=timedelta(seconds=60), max_diameter=50)
+stop_points = detector.get_stop_points(min_duration=timedelta(seconds=40), max_diameter=40)
 
-
+stop_points.to_file("data/result.json", driver="GeoJSON")
 
 #stop_durations = detector.get_stop_time_ranges(min_duration=timedelta(seconds=60), max_diameter=100)
 # stop_segments =  detector.get_stop_segments(min_duration=timedelta(seconds=60), max_diameter=100)

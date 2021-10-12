@@ -20,7 +20,7 @@ def calculate_paid_time(filename='data/removed.json'):
                 #print("Stop")
                 #print(end_points)
     total_paid_time = 0
-    for i in range(len(start_points)):
+    for i in range(len(end_points)):
         diff = end_points[i] - start_points[i]
         #print(diff.seconds)
         total_paid_time = total_paid_time + diff.seconds
