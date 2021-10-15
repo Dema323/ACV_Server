@@ -4,100 +4,320 @@
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-12 11:23:01",
-                "start_time": "2021-10-12T11:23:01",
-                "end_time": "2021-10-12T11:23:49",
+                "stop_id": "1_2021-10-11 12:09:55",
+                "start_time": "2021-10-11T12:09:55",
+                "end_time": "2021-10-11T12:10:20",
                 "traj_id": 1,
-                "duration_s": 48.0,
-                "avgspeed": 1.7909615834554036,
+                "duration_s": 25.0,
+                "avgspeed": 0.8360996720282576,
                 "backtracking": false,
                 "backtracking_probability": "Backtracking not possible"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7038134,
-                    50.8818054
+                    4.3876047,
+                    50.8696365
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-12 11:25:04",
-                "start_time": "2021-10-12T11:25:04",
-                "end_time": "2021-10-12T11:25:48",
+                "stop_id": "1_2021-10-11 12:12:36",
+                "start_time": "2021-10-11T12:12:36",
+                "end_time": "2021-10-11T12:13:32",
                 "traj_id": 1,
-                "duration_s": 44.0,
-                "avgspeed": 3.085900515504181,
-                "backtracking": true,
-                "backtracking_probability": 0.4
+                "duration_s": 56.0,
+                "avgspeed": 0.7109267717557183,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7013327,
-                    50.8802671
+                    4.3851269,
+                    50.8662711
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-12 11:26:47",
-                "start_time": "2021-10-12T11:26:47",
-                "end_time": "2021-10-12T11:28:05",
+                "stop_id": "1_2021-10-11 12:21:53",
+                "start_time": "2021-10-11T12:21:53",
+                "end_time": "2021-10-11T12:22:16",
                 "traj_id": 1,
-                "duration_s": 78.0,
-                "avgspeed": 2.307399018166157,
-                "backtracking": true,
-                "backtracking_probability": 0.5862068965517241
+                "duration_s": 23.0,
+                "avgspeed": 0.9703180087963119,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7050968,
-                    50.8806678
+                    4.3915556,
+                    50.8533975
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-12 11:29:09",
-                "start_time": "2021-10-12T11:29:09",
-                "end_time": "2021-10-12T11:30:18",
+                "stop_id": "1_2021-10-11 12:23:52",
+                "start_time": "2021-10-11T12:23:52",
+                "end_time": "2021-10-11T12:24:35",
+                "traj_id": 1,
+                "duration_s": 43.0,
+                "avgspeed": 0.7112733020680025,
+                "backtracking": true,
+                "backtracking_probability": 0.8571428571428571
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3850947,
+                    50.8517547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:25:16",
+                "start_time": "2021-10-11T12:25:16",
+                "end_time": "2021-10-11T12:25:57",
+                "traj_id": 1,
+                "duration_s": 41.0,
+                "avgspeed": 0.739917452177523,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3865187,
+                    50.8521608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:25:59",
+                "start_time": "2021-10-11T12:25:59",
+                "end_time": "2021-10-11T12:26:25",
+                "traj_id": 1,
+                "duration_s": 26.0,
+                "avgspeed": 0.374165341969476,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3867332,
+                    50.8522872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:26:45",
+                "start_time": "2021-10-11T12:26:45",
+                "end_time": "2021-10-11T12:27:33",
+                "traj_id": 1,
+                "duration_s": 48.0,
+                "avgspeed": 0.34507290405533486,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3866765,
+                    50.8520772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:34:11",
+                "start_time": "2021-10-11T12:34:11",
+                "end_time": "2021-10-11T12:35:09",
+                "traj_id": 1,
+                "duration_s": 58.00000000000001,
+                "avgspeed": 2.8446857929229736,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4076144,
+                    50.8393275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:37:24",
+                "start_time": "2021-10-11T12:37:24",
+                "end_time": "2021-10-11T12:40:58",
+                "traj_id": 1,
+                "duration_s": 214.0,
+                "avgspeed": 0.04580258575855017,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4161523,
+                    50.84215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:41:01",
+                "start_time": "2021-10-11T12:41:01",
+                "end_time": "2021-10-11T12:41:21",
+                "traj_id": 1,
+                "duration_s": 20.0,
+                "avgspeed": 0.8934645577230387,
+                "backtracking": false,
+                "backtracking_probability": "Backtracking not possible"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4161538,
+                    50.84223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:43:06",
+                "start_time": "2021-10-11T12:43:06",
+                "end_time": "2021-10-11T12:43:31",
+                "traj_id": 1,
+                "duration_s": 25.0,
+                "avgspeed": 0.0800000150214016,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4163259,
+                    50.8419016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:43:33",
+                "start_time": "2021-10-11T12:43:33",
+                "end_time": "2021-10-11T12:44:05",
+                "traj_id": 1,
+                "duration_s": 32.0,
+                "avgspeed": 2.078210465519482,
+                "backtracking": false,
+                "backtracking_probability": 0.09090909090909091
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4161419,
+                    50.8421105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:46:09",
+                "start_time": "2021-10-11T12:46:09",
+                "end_time": "2021-10-11T12:48:05",
+                "traj_id": 1,
+                "duration_s": 116.00000000000001,
+                "avgspeed": 2.233327762442059,
+                "backtracking": false,
+                "backtracking_probability": 0.038461538461538464
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4171255,
+                    50.8463311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:53:33",
+                "start_time": "2021-10-11T12:53:33",
+                "end_time": "2021-10-11T12:54:21",
+                "traj_id": 1,
+                "duration_s": 48.0,
+                "avgspeed": 2.090468721735912,
+                "backtracking": false,
+                "backtracking_probability": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3992635,
+                    50.8395589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stop_id": "1_2021-10-11 12:57:07",
+                "start_time": "2021-10-11T12:57:07",
+                "end_time": "2021-10-11T12:58:16",
                 "traj_id": 1,
                 "duration_s": 69.0,
-                "avgspeed": 1.2767501441456262,
-                "backtracking": false,
-                "backtracking_probability": 0.22727272727272727
+                "avgspeed": 0.794337760694907,
+                "backtracking": true,
+                "backtracking_probability": 0.5714285714285714
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7057291,
-                    50.8825694
+                    4.395162,
+                    50.8334885
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "stop_id": "1_2021-10-12 11:31:25",
-                "start_time": "2021-10-12T11:31:25",
-                "end_time": "2021-10-12T11:32:42",
+                "stop_id": "1_2021-10-11 12:58:18",
+                "start_time": "2021-10-11T12:58:18",
+                "end_time": "2021-10-11T12:59:36",
                 "traj_id": 1,
-                "duration_s": 77.0,
-                "avgspeed": 1.3904640437976923,
-                "backtracking": true,
-                "backtracking_probability": 0.8888888888888888
+                "duration_s": 78.0,
+                "avgspeed": 0.8144904520854147,
+                "backtracking": false,
+                "backtracking_probability": 0.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.7016486,
-                    50.8833182
+                    4.3952603,
+                    50.8334755
                 ]
             }
         }

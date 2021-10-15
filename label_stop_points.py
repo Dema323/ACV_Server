@@ -1,5 +1,9 @@
 import json
 
+#This script will iterate over all detected stop points and mark them accordingly
+#First point gets marked as 1, point following 1 gets marked 2
+#Repeat cycle
+
 def add_label(filename='data/removed.json'):
     with open(filename, 'r+') as file:
         file_data = json.load(file)

@@ -9,6 +9,10 @@ sys.path.append("..")
 import movingpandas as mpd
 #print(mpd.__version__)
 
+#This is the movingpandas script
+#For more information on what it does i would like to refer you to the movingpandas github.
+#They have an extensive readme with plenty of sample code
+
 import warnings
 warnings.simplefilter("ignore")
 
@@ -17,7 +21,7 @@ FSIZE = 350
 df = gpd.read_file('data/output.geojson')
 df['t'] = pd.to_datetime(df['t'])
 df = df.set_index('t').tz_localize(None)
-#print("Finished reading {} rows".format(len(df)))
+
 
 traj_collection = mpd.TrajectoryCollection(df, 'trajectory_id')
 traj_collection
@@ -34,7 +38,7 @@ traj_plot
 
 
 
-stop_points = detector.get_stop_points(min_duration=timedelta(seconds=40), max_diameter=40)
+stop_points = detector.get_stop_points(min_duration=timedelta(seconds=20), max_diameter=20)
 
 stop_points.to_file("data/result.json", driver="GeoJSON")
 

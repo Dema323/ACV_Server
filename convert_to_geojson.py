@@ -4,8 +4,11 @@ import glob
 import os
 
 list_of_files = glob.glob('../temp/*json') # * means all if need specific format then *.csv
-latest_file = max(list_of_files, key=os.path.getmtime)
-#print(latest_file)
+latest_file = max(list_of_files, key=os.path.getmtime) # get newest json file in folder
+
+
+#This file only serves to change a json into a geojson
+#There is no logic here, Its only job is to format the data
 
 with open(latest_file,"r") as infile, open('data/output.json',"w") as outfile:
     outfile.write('{ "gps" : ')
@@ -24,18 +27,16 @@ points_list = []
 
 for point in data['gps']:
     timestamp = point['timestamp']
-    ##print(timestamp)
+
     latitude = point['coords']['latitude']
-    ##print(latitude)
+ 
     longitude = point['coords']['longitude']
-    ##print(longitude)
+
     speed = point['coords']['speed']
-    ##print(speed)
+
     point_list = [timestamp, latitude, longitude, speed]
     points_list.append(point_list)
 
-# for x in points_list:
-#     #print(x)
 
 
 with open('data/output.geojson',"w") as outfile:
